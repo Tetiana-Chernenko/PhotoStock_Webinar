@@ -1,0 +1,224 @@
+@media (max-width: 1140px) {
+    .waiting .waiting_wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .waiting .waiting_wrapper .waiting_item {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .title {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    h1 {
+        margin-top: 40px;
+    }
+    .promo .promo_text {
+        font-size: 18px;
+    }
+    .program .program_img {
+        width: 100%;
+    }
+    .program .program_header {
+        margin: 0 20px 0 350px
+    }
+    .program .program_text {
+        margin: 0 20px 0 350px
+    }
+    .waiting {
+        padding: 20px 0;
+    }
+    .finish .finish_wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .finish_item {
+        margin: 20px;
+    }
+    .gift_item .gift_descr {
+        font-size: 24px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .program {
+        padding: 90px 0 50px 0;
+    }
+    .program .program_header {
+        margin: 0 20px 0 300px
+    }
+    .program .program_text {
+        margin: 0 20px 0 300px
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 20px;
+    }
+    .simple .title_big {
+        font-size: 60px;
+    }
+    .program {
+        padding: 70px 0 50px 0;
+    }
+    .program .program_header {
+        margin: 0 20px 0 260px
+    }
+    .program .program_text {
+        margin: 0 20px 0 260px
+    }
+    .finish {
+        padding: 50px 0;
+    }
+    .finish .finish_item img {
+        width: 100px;
+    }
+    .gift_item .gift_descr {
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 650px) {
+    .program .program_header {
+        margin: 0 20px 0 200px
+    }
+    .program .program_text {
+        margin: 0 20px 0 200px
+    }
+    .program .program_img {
+        left: -250px;
+    }
+    .finish {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .promo .promo_button, .gift_button {
+        width: 250px;
+        height: 55px;
+    }
+    .waiting .waiting_header, .finish .finish_header, .first_webinar .first_webinar_title {
+        font-size: 24px;
+    }
+    .waiting .waiting_subheader, .first_webinar .first_webinar_text {
+        font-size: 18px;
+        margin: 20px;
+    }
+    .program .program_header {
+        margin: 0 20px 0 120px
+    }
+    .program .program_text {
+        margin: 0 20px 0 120px
+    }
+    .program .program_img {
+        left: -230px;
+    }
+    .finish {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .promo {
+        padding: 20px 0 20px 0;
+    }
+    .logo .logo_img {
+        width: 80px;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .simple .title_big {
+        font-size: 50px;
+    }
+    .promo .promo_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .more {
+        margin-top: 20px;
+    }
+    .program .program_header {
+        margin: 0 20px 0 80px;
+    }
+    .program .program_text {
+        margin: 0 20px 0 80px;
+        font-size: 14px;
+    }
+    .program .program_img {
+        left: -200px;
+    }
+    .finish {
+        padding: 20px 0;
+    }
+    .gift_item .gift_descr {
+        font-size: 20px;
+    }
+    .first_webinar {
+        padding: 40px 0;
+    }
+    .first_webinar .first_webinar_item img {
+        width: 280px;
+    }
+    .info_links {
+        display: flex;
+        flex-direction: column;
+    }
+    .info_divider {
+        display: none;
+    }
+    footer {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .title {
+        font-size: 12px;
+    }
+    .simple .title_big {
+        font-size: 40px;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    .promo .promo_button, .gift_button {
+        width: 220px;
+        height: 45px;
+    }
+    .promo .promo_button, .gift_button {
+        margin-top: 30px;
+    }
+    .promo .promo_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .more .more_text {
+        font-size: 12px;
+    }
+    .more .more_img {
+        width: 20px;
+    }
+    .program .program_header {
+        margin: 0 20px 0 40px
+    }
+    .program .program_text {
+        margin: 0 20px 0 40px
+    }
+    .program .program_img {
+        left: -150px;
+    }
+    .first_webinar .first_webinar_item img {
+        width: 240px;
+    }
+    footer {
+        min-height: 120px;
+    }
+}
